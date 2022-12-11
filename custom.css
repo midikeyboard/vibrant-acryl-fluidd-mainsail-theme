@@ -1,0 +1,254 @@
+body {
+    background-image: url('/server/files/config/.theme/background.jpg'), url('/server/files/config/.theme/background.png'), url('/server/files/config/.theme/background.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.v-btn.error {
+    background-color: transparent !important;
+    border: none!important;
+    color: var(--v-error-base) !important;
+}
+
+.v-btn.error .v-icon__svg {
+    fill: var(--v-error-base) !important;
+}
+
+.theme--dark.v-sheet {
+    background-color: rgba(0, 0, 0, 0.24)!important;
+    backdrop-filter: blur(10px);
+    border: none!important;
+    box-shadow: none!important;
+}
+
+.theme--dark.v-application,
+.theme--dark.v-navigation-drawer,
+.v-navigation-drawer__image>.v-image>.v-image__image.v-image__image--cover {
+    background: transparent;
+    background-image: none!important;
+    border: none!important;
+    box-shadow: none!important;
+}
+
+.v-navigation-drawer__border {
+    width: 0;
+}
+
+.theme--dark.v-app-bar.v-toolbar.v-sheet {
+    background-color: rgba(0, 0, 0, 0.12)!important;
+    backdrop-filter: blur(10px);
+}
+
+.theme--dark.v-navigation-drawer,
+.v-color-picker__controls {
+    background: rgba(0, 0, 0, 0.12);
+    backdrop-filter: blur(10px);
+}
+
+.v-application .panel {
+    background-color: rgba(0, 0, 0, 0.28)!important;
+    backdrop-filter: blur(10px);
+    box-shadow: none!important;
+    border: none;
+}
+
+.v-application .panel .theme--dark.v-toolbar.v-sheet,
+.theme--dark.v-data-table,
+.theme--dark.v-tabs>.v-tabs-bar,
+.theme--dark.v-tabs-items,
+.v-sheet.v-list,
+.settings-tabs .theme--dark.v-sheet,
+.filesJobqueue.theme--dark.v-sheet,
+.v-card>*:first-child:not(.v-btn):not(.v-chip):not(.v-avatar), .v-card>.v-card__progress+*:not(.v-btn):not(.v-chip):not(.v-avatar),
+.filesGcodeCard.theme--dark.v-sheet,
+.cm-gutters,
+.cm-editor
+{
+    backdrop-filter: blur(0px);
+    background-color: transparent !important;
+    border: none!important;
+    box-shadow: none!important;
+}
+
+.v-input__slot {
+    background-color: transparent!important;
+    border: none!important;
+    box-shadow: none!important;
+}
+
+.theme--dark.v-data-table>.v-data-table__wrapper>table>tbody>tr:not(:last-child)>td:not(.v-data-table__mobile-row), .theme--dark.v-data-table>.v-data-table__wrapper>table>tbody>tr:not(:last-child)>th:not(.v-data-table__mobile-row),
+.theme--dark.v-data-table>.v-data-table__wrapper>table>thead>tr:last-child>th,
+.theme--dark.v-divider,
+.consoleTableRow.default+.consoleTableRow .col,
+.theme--dark.v-data-table .v-data-footer,
+.consoleTable[data-v-3946c1f9],
+.echarts-tooltip .py-1,
+.v-btn--outlined{
+    border: none!important;
+}
+
+.cm-gutter {
+    background-color: rgba(0, 0, 0, 0.33)!important;
+}
+
+.echarts-tooltip {
+    background-color: rgba(0, 0, 0, 0.33)!important;
+    backdrop-filter: blur(10px);
+    border: none!important;
+    box-shadow: none!important;
+}
+
+.v-menu__content {
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.65)!important;
+    backdrop-filter: blur(10px);
+}
+
+.v-application .grey.darken-3.v-btn,
+.v-btn,
+.v-btn-toggle {
+    box-shadow: none!important;
+    background-color: transparent !important;
+}
+
+.v-progress-circular__underlay {
+    stroke: rgba(0, 0, 0, 0.15)!important;
+}
+
+.v-btn {
+    border-radius: 8px;
+}
+
+.webcamImage {
+    background-color: transparent!important;
+    margin-bottom: -8px!important;
+    overflow: hidden;
+}
+
+.webcamFpsOutput {
+    bottom: 6px!important;
+    right: 6px!important;
+    background-color: rgba(0, 0, 0, 0.33)!important;
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+div[data-v-11632d50] {
+    border-radius: 0 0 15px 15px!important;
+    overflow: hidden;
+}
+
+.v-dialog,
+.v-sheet.v-card,
+.v-tooltip__content.menuable__content__active {
+    border: none;
+    border-radius: 15px!important;
+}
+
+.v-dialog--fullscreen .v-sheet.v-card {
+    border-radius: 0!important;
+}
+
+svg a[data-v-5c71071d] {
+    stroke: none!important;
+}
+
+x-vue-echarts text{
+    fill-opacity: 0.75!important;
+}
+
+.icon-rotate {
+    animation-duration: 1.75s!important;
+}
+
+.fluidd .v-expansion-panel{
+    background-color: rgba(0, 0, 0, 0.24)!important;
+    backdrop-filter: blur(10px);
+    border: none!important;
+    box-shadow: none!important;
+    border-radius: 15px;
+}
+
+.fluidd .filesystem-wrapper,
+.fluidd .console-wrapper {
+    background-color: transparent!important;
+    backdrop-filter: none;
+}
+
+.fluidd .file-system .v-toolbar,
+.fluidd .footer {
+    background-color: transparent!important;
+    backdrop-filter: none!important;
+}
+
+.fluidd .console-wrapper .secondary--text,
+.fluidd .footer .secondary--text {
+    color: #fff!important;
+}
+
+.fluidd .container[data-v-bd286738] {
+    border: none!important;
+}
+
+.fluidd .v-btn {
+    box-shadow: none!important;
+    background-color: transparent!important;
+}
+
+.fluidd .v-btn:hover,
+.fluidd .v-btn:focus {
+    background-color: rgba(0, 0, 0, 0.33)!important;
+}
+
+.fluidd .v-chip {
+    background: rgba(0, 0, 0, 0.66)!important;
+    background-color: rgba(0, 0, 0, 0.66)!important;
+}
+
+.fluidd .menuable__content__active {
+    background: rgb(203 203 203 / 0%)!important
+}
+
+.fluidd .v-navigation-drawer {
+    background-color: rgb(0 0 0 / 6%)!important;
+    border: none!important;
+    backdrop-filter: blur(10px);
+}
+
+.fluidd .v-navigation-drawer .v-list-item--active {
+    background-color: rgb(0 0 0 / 15%)!important;
+}
+
+.fluidd .v-navigation-drawer .v-list-item:hover {
+    background-color: rgb(0 0 0 / 15%)!important;
+}
+
+.fluidd .toolbar-logo {
+    background-color: transparent!important;
+    border: none!important;
+}
+
+.fluidd .theme--dark.v-data-table>.v-data-table__wrapper>table>tbody>tr:hover:not(.v-data-table__expanded__content):not(.v-data-table__empty-wrapper) {
+    background-color: rgb(0 0 0 / 15%)!important;
+    border-radius: 15px!important;
+    backdrop-filter: blur(10px);
+}
+
+.fluidd .v-data-table>.v-data-table__wrapper tbody tr:hover td:first-child {
+    border-bottom-left-radius: 15px!important;
+    border-top-left-radius: 15px!important;
+}
+
+.fluidd .v-data-table>.v-data-table__wrapper tbody tr:hover td:last-child {
+    border-bottom-right-radius: 15px!important;
+    border-top-right-radius: 15px!important;
+}
+
+.fluidd .file-system .v-data-table tr>td.actions div,
+.fluidd .file-system .v-data-table tr>td.actions div:before {
+    background: transparent;
+    border-bottom-right-radius: 15px!important;
+    border-top-right-radius: 15px!important;
+}

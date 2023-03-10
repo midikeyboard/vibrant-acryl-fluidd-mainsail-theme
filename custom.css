@@ -15,8 +15,12 @@ body {
     fill: var(--v-error-base) !important;
 }
 
+.theme--dark.v-data-table>.v-data-table__wrapper>table>tbody>tr:hover:not(.v-data-table__expanded__content):not(.v-data-table__empty-wrapper) {
+    background: #383838;
+}
+
 .theme--dark.v-sheet {
-    background-color: rgba(0, 0, 0, 0.24)!important;
+    background-color: rgba(0, 0, 0, 0.44)!important;
     backdrop-filter: blur(10px);
     border: none!important;
     box-shadow: none!important;
@@ -36,18 +40,18 @@ body {
 }
 
 .theme--dark.v-app-bar.v-toolbar.v-sheet {
-    background-color: rgba(0, 0, 0, 0.12)!important;
+    background-color: rgba(0, 0, 0, 0.32)!important;
     backdrop-filter: blur(10px);
 }
 
 .theme--dark.v-navigation-drawer,
 .v-color-picker__controls {
-    background: rgba(0, 0, 0, 0.12);
+    background: rgba(0, 0, 0, 0.32);
     backdrop-filter: blur(10px);
 }
 
 .v-application .panel {
-    background-color: rgba(0, 0, 0, 0.28)!important;
+    background-color: rgba(0, 0, 0, 0.48)!important;
     backdrop-filter: blur(10px);
     box-shadow: none!important;
     border: none;
@@ -89,11 +93,11 @@ body {
 }
 
 .cm-gutter {
-    background-color: rgba(0, 0, 0, 0.33)!important;
+    background-color: rgba(0, 0, 0, 0.43)!important;
 }
 
 .echarts-tooltip {
-    background-color: rgba(0, 0, 0, 0.33)!important;
+    background-color: rgba(0, 0, 0, 0.43)!important;
     backdrop-filter: blur(10px);
     border: none!important;
     box-shadow: none!important;
@@ -101,7 +105,7 @@ body {
 
 .v-menu__content {
     border-radius: 15px;
-    background-color: rgba(0, 0, 0, 0.65)!important;
+    background-color: rgba(0, 0, 0, 0.85)!important;
     backdrop-filter: blur(10px);
 }
 
@@ -212,17 +216,17 @@ x-vue-echarts text{
 }
 
 .fluidd .v-navigation-drawer {
-    background-color: rgb(0 0 0 / 6%)!important;
+    background-color: rgb(0 0 0 /12%)!important;
     border: none!important;
     backdrop-filter: blur(10px);
 }
 
 .fluidd .v-navigation-drawer .v-list-item--active {
-    background-color: rgb(0 0 0 / 15%)!important;
+    background-color: rgb(0 0 0 / 20%)!important;
 }
 
 .fluidd .v-navigation-drawer .v-list-item:hover {
-    background-color: rgb(0 0 0 / 15%)!important;
+    background-color: rgb(0 0 0 / 20%)!important;
 }
 
 .fluidd .toolbar-logo {

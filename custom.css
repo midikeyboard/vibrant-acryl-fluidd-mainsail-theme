@@ -117,7 +117,7 @@ body {
 }
 
 .v-progress-circular__underlay {
-    stroke: rgba(0, 0, 0, 0.15)!important;
+    stroke: rgba(0, 0, 0, 0.55)!important;
 }
 
 .v-btn {

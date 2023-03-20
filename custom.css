@@ -1,5 +1,5 @@
 body {
-    background-image: url('/server/files/config/.theme/background.jpg'), url('/server/files/config/.theme/background.png'), url('/server/files/config/.theme/background.gif');
+    background-image: url('/server/files/config/.theme/background.jpg'), url('/server/files/config/.theme/background.png'), url('/server/files/config/.theme/background.gif'), url('/server/files/config/.fluidd-theme/background.jpg'), url('/server/files/config/.fluidd-theme/background.png'), url('/server/files/config/.fluidd-theme/background.gif');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;

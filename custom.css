@@ -125,6 +125,8 @@ body {
 }
 
 .webcamImage {
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: transparent!important;
     overflow: hidden;
 }
@@ -136,6 +138,7 @@ body {
     backdrop-filter: blur(10px);
     border-radius: 8px;
     border-top-left-radius: 8px;
+    margin-bottom: 20px
 }
 
 div[data-v-11632d50] {
@@ -152,10 +155,6 @@ div[data-v-11632d50] {
 
 .v-dialog--fullscreen .v-sheet.v-card {
     border-radius: 0!important;
-}
-
-.data-v-4d0d16d4 {
-  padding-bottom: 4px;
 }
 
 svg a[data-v-5c71071d] {

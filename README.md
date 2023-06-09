@@ -15,12 +15,12 @@ git clone https://github.com/eliteSchwein/acryl-fluidd-mainsail-theme ~/printer_
 
 ## Update Mainsail
 ```bash
-git -C ~/klipper_config/.theme pull
+git -C ~/printer_data/config/.theme pull
 ```
 
 ## Update Fluidd 
 ```bash
-git -C ~/klipper_config/.fluidd-theme pull
+git -C ~/printer_data/config/.fluidd-theme pull
 ```
 
 ## License

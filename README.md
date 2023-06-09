@@ -5,12 +5,12 @@
 
 ## Installation Mainsail
 ```bash
-git clone https://github.com/eliteSchwein/acryl-fluidd-mainsail-theme ~/klipper_config/.theme
+git clone https://github.com/eliteSchwein/acryl-fluidd-mainsail-theme ~/printer_data/config/.theme
 ```
 
 ## Installation Fluidd
 ```bash
-git clone https://github.com/eliteSchwein/acryl-fluidd-mainsail-theme ~/klipper_config/.fluidd-theme
+git clone https://github.com/eliteSchwein/acryl-fluidd-mainsail-theme ~/printer_data/config/.fluidd-theme
 ```
 
 ## Update Mainsail

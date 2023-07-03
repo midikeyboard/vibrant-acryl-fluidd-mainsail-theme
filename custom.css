@@ -5,6 +5,7 @@
   --color-3: rgba(217, 17, 242, 0.8);
   --color-4: rgba(255, 160, 121, 0.8);
   --color-5: rgba(255, 255, 255, 0.07);
+  --v-primary-base: rgba(241, 241, 241, 1);
 }
 
 body {

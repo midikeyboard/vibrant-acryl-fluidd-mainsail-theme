@@ -1,11 +1,172 @@
-body {
-    background-image: url('/server/files/config/.theme/background.jpg'), url('/server/files/config/.theme/background.png'), url('/server/files/config/.theme/background.gif'), url('/server/files/config/.fluidd-theme/background.jpg'), url('/server/files/config/.fluidd-theme/background.png'), url('/server/files/config/.fluidd-theme/background.gif');
-    background: rgb(0,48,73);
-    background: linear-gradient(34deg, rgba(0,48,73,1) 0%, rgba(9,32,121,1) 35%, rgba(0,125,255,1) 100%);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+/* BG Animation */
+:root {
+  --color-1: rgba(2, 225, 186, 0.8);
+  --color-2: rgba(38, 201, 242, 0.8);
+  --color-3: rgba(217, 17, 242, 0.8);
+  --color-4: rgba(255, 160, 121, 0.8);
+  --color-5: rgba(255, 255, 255, 0.07);
 }
+
+body {
+  background: -moz-linear-gradient(45deg, var(--color-1) 0%, var(--color-2) 29%, var(--color-3) 66%, var(--color-4) 100%);
+  background: -webkit-linear-gradient(45deg, var(--color-1) 0%, var(--color-2) 29%, var(--color-3) 66%, var(--color-4) 100%);
+  background: linear-gradient(45deg, var(--color-1) 0%, var(--color-2) 29%, var(--color-3) 66%, var(--color-4) 100%);
+  background-size: 200% 400%;
+  -webkit-animation: Gradient 30s ease infinite;
+  -moz-animation: Gradient 30s ease infinite;
+  animation: Gradient 30s ease infinite;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-evenly;
+}
+
+body::before,
+body::after {
+  content: "";
+  width: 70vmax;
+  height: 70vmax;
+  position: absolute;
+  background: var(--color-5);
+  left: -20vmin;
+  top: -20vmin;
+  animation: morph 15s linear infinite alternate, spin 20s linear infinite;
+  z-index: -1;
+  will-change: border-radius, transform;
+  transform-origin: 55% 55%;
+  pointer-events: none;
+}
+
+body::after {
+  width: 70vmin;
+  height: 70vmin;
+  left: auto;
+  right: -10vmin;
+  top: auto;
+  bottom: 0;
+  animation: morph 10s linear infinite alternate, spin 26s linear infinite reverse;
+  transform-origin: 20% 20%;
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+@keyframes morph {
+  0% {
+    border-radius: 40% 60% 60% 40% / 70% 30% 70% 30%;
+  }
+  100% {
+    border-radius: 40% 60%;
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+.st0 {
+  display: none;
+}
+
+.st1 {
+  display: inline;
+}
+
+.st2 {
+  opacity: 0.29;
+}
+
+.st3 {
+  fill: #FFFFFF;
+}
+
+.st4 {
+  clip-path: url(#SVGID_2_);
+  fill: #FFFFFF;
+}
+
+.st5 {
+  clip-path: url(#SVGID_4_);
+}
+
+.st6 {
+  clip-path: url(#SVGID_6_);
+}
+
+.st7 {
+  clip-path: url(#SVGID_8_);
+}
+
+.st8 {
+  clip-path: url(#SVGID_10_);
+}
+
+.st9 {
+  fill: none;
+}
+
+.st10 {
+  clip-path: url(#SVGID_12_);
+}
+
+.st11 {
+  opacity: 0.7;
+}
+
+.st12 {
+  clip-path: url(#SVGID_14_);
+}
+
+.st13 {
+  opacity: 0.2;
+}
+
+.st14 {
+  clip-path: url(#SVGID_16_);
+}
+
+.st15 {
+  opacity: 0.3;
+  fill: #FFFFFF;
+  enable-background: new;
+}
+
+/* End BG Animation */
 
 .v-btn.error {
     background-color: transparent !important;
@@ -259,10 +420,4 @@ x-vue-echarts text{
     background: transparent;
     border-bottom-right-radius: 15px!important;
     border-top-right-radius: 15px!important;
-}
-
-.dragable-item[data-v-50fe7cb0], .dragable-item[data-v-2ba4ce8c] {
-    background-color: #0e0e0e73;
-    border-radius: 20px;
-    padding: 0px 20px;
 }

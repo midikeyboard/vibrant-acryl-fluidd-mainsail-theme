@@ -1,5 +1,7 @@
 body {
     background-image: url('/server/files/config/.theme/background.jpg'), url('/server/files/config/.theme/background.png'), url('/server/files/config/.theme/background.gif'), url('/server/files/config/.fluidd-theme/background.jpg'), url('/server/files/config/.fluidd-theme/background.png'), url('/server/files/config/.fluidd-theme/background.gif');
+    background: rgb(0,48,73);
+    background: linear-gradient(34deg, rgba(0,48,73,1) 0%, rgba(9,32,121,1) 35%, rgba(0,125,255,1) 100%);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -257,4 +259,10 @@ x-vue-echarts text{
     background: transparent;
     border-bottom-right-radius: 15px!important;
     border-top-right-radius: 15px!important;
+}
+
+.dragable-item[data-v-50fe7cb0], .dragable-item[data-v-2ba4ce8c] {
+    background-color: #0e0e0e73;
+    border-radius: 20px;
+    padding: 0px 20px;
 }

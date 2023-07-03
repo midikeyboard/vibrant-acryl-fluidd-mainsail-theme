@@ -1,7 +1,7 @@
 # acryl-fluidd-mainsail-theme
 > A Modern Theme for [Fluidd](https://github.com/fluidd-core/fluidd) AND [Mainsail](https://github.com/mainsail-crew/mainsail)
 
-![Screenshot](./chrome_S95z75NwQY.jpg)
+![Screenshot](./img.png)
 
 ## Installation Mainsail
 ```bash

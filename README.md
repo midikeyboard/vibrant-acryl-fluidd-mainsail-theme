@@ -1,7 +1,7 @@
 # vibrant-acryl-fluidd-mainsail-theme
 > An animated theme for [Fluidd](https://github.com/fluidd-core/fluidd) AND [Mainsail](https://github.com/mainsail-crew/mainsail) based on [Acryl theme](https://github.com/eliteSchwein/acryl-fluidd-mainsail-theme) by [eliteSchwein](https://github.com/eliteSchwein/acryl-fluidd-mainsail-theme) 
 
-![Screenshot](./screenshot.png)
+![Screenshot](./screenshot.jpg)
 
 ## Installation Mainsail
 ```bash

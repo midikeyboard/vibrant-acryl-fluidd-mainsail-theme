@@ -1,11 +1,20 @@
 /* BG Animation */
 :root {
-  --color-1: rgba(2, 225, 186, 0.8);
-  --color-2: rgba(38, 201, 242, 0.8);
-  --color-3: rgba(217, 17, 242, 0.8);
-  --color-4: rgba(255, 160, 121, 0.8);
+  --color-1: rgba(0,130,122, 0.8);
+  --color-2: rgba(112,194,190,0.8);
+  --color-3: rgba(0,130,122, 0.8);
+  --color-4: rgba(112,194,190,0.8);
+  --color-5: rgb(112,194,190);
+  --v-primary-base:rgb(238,28,39);
+  overflow: hidden;
+}
+:root {
+  --color-1: rgba(238,28,39,0.8);
+  --color-2: rgba(112,194,190,0.8);
+  --color-3: rgba(0,130,122, 0.8);
+  --color-4: rgba(214, 253, 76, 0.8);
   --color-5: rgba(255, 255, 255, 0.07);
-  --v-primary-base: rgba(242, 242, 242, .6);
+  --v-primary-base: rgba(122,0,130,1);
   overflow: hidden;
 }
 

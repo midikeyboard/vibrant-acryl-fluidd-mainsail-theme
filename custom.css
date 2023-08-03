@@ -6,6 +6,7 @@
   --color-4: rgba(255, 160, 121, 0.8);
   --color-5: rgba(255, 255, 255, 0.07);
   --v-primary-base: rgba(242, 242, 242, .6);
+  overflow: hidden;
 }
 
 body {

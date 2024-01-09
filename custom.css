@@ -28,7 +28,7 @@ body::after {
   content: "";
   width: 70vmax;
   height: 70vmax;
-  position: absolute;
+  position: fixed;
   background: var(--color-5);
   left: -20vmin;
   top: -20vmin;

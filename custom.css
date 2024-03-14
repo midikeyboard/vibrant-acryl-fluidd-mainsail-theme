@@ -23,6 +23,16 @@ body {
   justify-content: space-evenly;
 }
 
+#page-container {
+	max-width: 100%;
+}
+
+@media (min-width: 1904px) {
+	.container {
+		max-width: 100%;
+	}
+}
+
 body::before,
 body::after {
   content: "";
